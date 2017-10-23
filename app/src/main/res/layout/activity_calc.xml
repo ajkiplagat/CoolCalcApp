@@ -52,30 +52,30 @@
             android:weightSum="4">
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/sevenBtn"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/seven_button" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/eightBtn"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/eight_button" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/nineBtn"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/nine_button" />
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/divideBtn"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="120dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/divide" />
 
