@@ -47,37 +47,181 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:weightSum="4">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/sevenBtn"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="110dp"
                 android:layout_weight="1"
-                android:text="@string/seven_button" />
+                android:background="@android:color/background_light"
+                android:text="@string/seven_button"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/eightBtn"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="110dp"
                 android:layout_weight="1"
-                android:text="@string/eight_button" />
+                android:background="@android:color/background_light"
+                android:text="@string/eight_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/nineBtn"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="110dp"
                 android:layout_weight="1"
-                android:text="@string/nine_button" />
+                android:background="@android:color/background_light"
+                android:text="@string/nine_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
 
             <ImageButton
                 android:id="@+id/divideBtn"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="110dp"
                 android:layout_weight="1"
+                android:background="#00000000"
                 app:srcCompat="@drawable/divide" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/four_button"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/eightBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/five_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/nineBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/six_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/divideBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                app:srcCompat="@drawable/multiply" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/one_button"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/eightBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/two_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/nineBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/three_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/divideBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                app:srcCompat="@drawable/subtract" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/seven_button"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/eightBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/eight_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/nineBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="@string/zero_button"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/divideBtn"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                app:srcCompat="@drawable/add" />
 
         </LinearLayout>
 
