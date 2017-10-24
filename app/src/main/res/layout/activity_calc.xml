@@ -28,7 +28,7 @@
             android:weightSum="1">
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/resultsTxt"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="0.09"
@@ -94,7 +94,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/sevenBtn"
+                android:id="@+id/fourBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -104,7 +104,7 @@
                 android:textSize="28sp" />
 
             <Button
-                android:id="@+id/eightBtn"
+                android:id="@+id/fiveBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -114,7 +114,7 @@
                 android:textSize="28sp" />
 
             <Button
-                android:id="@+id/nineBtn"
+                android:id="@+id/sixBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -124,7 +124,7 @@
                 android:textSize="28sp" />
 
             <ImageButton
-                android:id="@+id/divideBtn"
+                android:id="@+id/multiplyBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -140,7 +140,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/sevenBtn"
+                android:id="@+id/oneBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -150,7 +150,7 @@
                 android:textSize="28sp" />
 
             <Button
-                android:id="@+id/eightBtn"
+                android:id="@+id/twoBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -160,7 +160,7 @@
                 android:textSize="28sp" />
 
             <Button
-                android:id="@+id/nineBtn"
+                android:id="@+id/threeBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -170,7 +170,7 @@
                 android:textSize="28sp" />
 
             <ImageButton
-                android:id="@+id/divideBtn"
+                android:id="@+id/subtractBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -191,17 +191,18 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button14"
+                    android:id="@+id/clearBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
+                    android:background="#38c5c6"
                     android:text="@string/clear_button"
                     android:textSize="24sp" />
             </LinearLayout>
 
             <Button
-                android:id="@+id/nineBtn"
+                android:id="@+id/zeroBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -211,7 +212,7 @@
                 android:textSize="28sp" />
 
             <ImageButton
-                android:id="@+id/divideBtn"
+                android:id="@+id/addBtn"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:layout_weight="1"
@@ -224,7 +225,7 @@
     </LinearLayout>
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/calcBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.09"
