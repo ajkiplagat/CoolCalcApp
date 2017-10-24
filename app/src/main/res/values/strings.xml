@@ -10,4 +10,5 @@
     <string name="five_button">5</string>
     <string name="six_button">6</string>
     <string name="zero_button">0</string>
+    <string name="clear_button">CLEAR</string>
 </resources>
